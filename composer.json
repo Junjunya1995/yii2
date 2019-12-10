@@ -117,7 +117,7 @@
                 "Fix PHP 7 compatibility": "./tests/phpunit_mock_objects.patch"
             },
             "phpunit/phpunit": {
-                "Fix each() function is deprecated in Getopt": "./tests/phpunit.patch"
+                "Removed each() deprecated function from Getopt": "./tests/phpunit.patch"
             }
         },
         "enable-patching": true

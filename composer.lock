@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "2633326bb88fad7a8d0c7b4ca88408ab",
+    "content-hash": "be7c02635bd4330b5edb2f4ae8206ac4",
     "packages": [
         {
             "name": "bower-asset/inputmask",
@@ -1256,9 +1256,6 @@
             "extra": {
                 "branch-alias": {
                     "dev-master": "4.8.x-dev"
-                },
-                "patches_applied": {
-                    "Fix each() function is deprecated in Getopt": "./tests/phpunit.patch"
                 }
             },
             "autoload": {
