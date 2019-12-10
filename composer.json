@@ -115,9 +115,6 @@
         "patches": {
             "phpunit/phpunit-mock-objects": {
                 "Fix PHP 7 compatibility": "./tests/phpunit_mock_objects.patch"
-            },
-            "phpunit/phpunit": {
-                "Removed each() deprecated function from Getopt": "./tests/phpunit.patch"
             }
         },
         "enable-patching": true
