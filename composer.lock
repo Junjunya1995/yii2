@@ -1256,6 +1256,9 @@
             "extra": {
                 "branch-alias": {
                     "dev-master": "4.8.x-dev"
+                },
+                "patches_applied": {
+                    "Fix each() function is deprecated in Getopt": "./tests/phpunit.patch"
                 }
             },
             "autoload": {
