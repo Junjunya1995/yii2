@@ -112,6 +112,7 @@
         "branch-alias": {
             "dev-master": "2.0.x-dev"
         },
+        "composer-exit-on-patch-failure": true,
         "patches": {
             "phpunit/phpunit-mock-objects": {
                 "Fix PHP 7 compatibility": "./tests/phpunit_mock_objects.patch"
